@@ -42,7 +42,7 @@ Una interfaz de usuario moderna y dinámica desarrollada con:
   * **React.js**: Para construir la interfaz de usuario con componentes funcionales.
   * **Axios**: Para la comunicación con las APIs del backend.
   * **React Router**: Para gestionar la navegación entre las diferentes vistas de la aplicación.
-  * **Bootstrap / Material-UI**: Para un diseño responsivo y consistente.
+  * **Tailwind CSS**: Para un diseño responsivo y consistente.
 
 -----
 
