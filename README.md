@@ -1,4 +1,5 @@
 # Sistema de Gestión para Consultorio Psicológico Individual
+<p align="center"><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f26abcae-fce6-4468-945e-5bb6778242a9" /></p>
 
 Este es un sistema de gestión web simplificado, diseñado para ayudar a psicólogos independientes a digitalizar su práctica privada. El objetivo principal es reemplazar la agenda física y los registros en papel con una plataforma segura, intuitiva y centrada en las funcionalidades más esenciales: la gestión de pacientes, citas y notas de sesión.
 
