@@ -82,7 +82,7 @@ Una interfaz de usuario moderna y dinámica desarrollada con:
 1.  **Clona el repositorio:**
 
     ```bash
-    git clone https://github.com/tu-usuario/psicologo-consultorio.git
+    git clone https://github.com/AxelAV95/psicologo-consultorio.git
     cd psicologo-consultorio
     ```
 
