@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TIENDAROPA.Infrastructure/1.0.0": {
+        "dependencies": {
+          "TIENDAROPA.Application": "1.0.0"
+        },
+        "runtime": {
+          "TIENDAROPA.Infrastructure.dll": {}
+        }
+      },
+      "TIENDAROPA.Application/1.0.0": {
+        "dependencies": {
+          "TIENDAROPA.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TIENDAROPA.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TIENDAROPA.Domain/1.0.0": {
+        "runtime": {
+          "TIENDAROPA.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TIENDAROPA.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TIENDAROPA.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TIENDAROPA.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

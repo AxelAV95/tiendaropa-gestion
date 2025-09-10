@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "TIENDAROPA.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "TIENDAROPA.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TIENDAROPA.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TIENDAROPA.Application.dll": {}
+        }
+      },
+      "TIENDAROPA.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/TIENDAROPA.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TIENDAROPA.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TIENDAROPA.Application/1.0.0": {
+      "type": "project",
+      "path": "../TIENDAROPA.Application/TIENDAROPA.Application.csproj",
+      "msbuildProject": "../TIENDAROPA.Application/TIENDAROPA.Application.csproj"
+    },
+    "TIENDAROPA.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TIENDAROPA.Domain/TIENDAROPA.Domain.csproj",
+      "msbuildProject": "../TIENDAROPA.Domain/TIENDAROPA.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "TIENDAROPA.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\andra\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Infrastructure\\TIENDAROPA.Infrastructure.csproj",
+      "projectName": "TIENDAROPA.Infrastructure",
+      "projectPath": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Infrastructure\\TIENDAROPA.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\andra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\andra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj": {
+              "projectPath": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

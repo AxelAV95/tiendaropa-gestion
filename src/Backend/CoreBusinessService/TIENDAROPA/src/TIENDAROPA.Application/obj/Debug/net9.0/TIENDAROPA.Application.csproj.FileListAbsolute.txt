@@ -1,0 +1,16 @@
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\bin\Debug\net9.0\TIENDAROPA.Application.deps.json
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\bin\Debug\net9.0\TIENDAROPA.Application.dll
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\bin\Debug\net9.0\TIENDAROPA.Application.pdb
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\bin\Debug\net9.0\TIENDAROPA.Domain.dll
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\bin\Debug\net9.0\TIENDAROPA.Domain.pdb
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\obj\Debug\net9.0\TIENDAROPA.Application.csproj.AssemblyReference.cache
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\obj\Debug\net9.0\TIENDAROPA.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\obj\Debug\net9.0\TIENDAROPA.Application.AssemblyInfoInputs.cache
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\obj\Debug\net9.0\TIENDAROPA.Application.AssemblyInfo.cs
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\obj\Debug\net9.0\TIENDAROPA.Application.csproj.CoreCompileInputs.cache
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\obj\Debug\net9.0\TIENDAROPA.Application.sourcelink.json
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\obj\Debug\net9.0\TIENDARO.0951FCCA.Up2Date
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\obj\Debug\net9.0\TIENDAROPA.Application.dll
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\obj\Debug\net9.0\refint\TIENDAROPA.Application.dll
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\obj\Debug\net9.0\TIENDAROPA.Application.pdb
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Application\obj\Debug\net9.0\ref\TIENDAROPA.Application.dll

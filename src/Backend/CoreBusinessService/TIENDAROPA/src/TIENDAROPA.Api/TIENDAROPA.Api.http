@@ -1,0 +1,6 @@
+@TIENDAROPA.Api_HostAddress = http://localhost:5218
+
+GET {{TIENDAROPA.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
