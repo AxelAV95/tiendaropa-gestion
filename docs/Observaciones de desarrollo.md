@@ -4,6 +4,13 @@
 
 - **`UnitPrice`:** Guardar el precio al momento de la venta es **crítico**. Si solo te basaras en el precio del producto, y este cambiara en el futuro, todos tus reportes de ventas históricos serían incorrectos. Has creado una "foto" del precio, lo cual es perfecto.
 
+- Conexiones con contraseña: 
+
+* String de conexión:  "ConnectionStrings": {
+    "DefaultConnection": "Server=AxelAV\\SQLEXPRESS;Database=tiendadb;User Id=axelav;Password=admin1234;TrustServerCertificate=True;MultipleActiveResultSets=true"
+  
+  }
+  
 - Analizar si varias ramas están iguales con varios trucos:
 
   
@@ -60,14 +67,4 @@
 
   Esto te dice si tu rama local está adelantada o atrasada respecto a la remota, aunque no es tan detallado para comparar entre ramas.
 
-  ------
-
-  ✅ **Conclusión rápida:**
-
-  - **Para commits diferentes:** `git log main..develop`
-  - **Para diferencias de archivos:** `git diff main..develop`
-  - **Para hash rápido:** compara `git log -1` de cada rama.
-
-  ------
-
-  ¿Quieres que te arme **un mini “chuletario”** con los comandos más útiles para comparar ramas en Git? (quedaría como guía rápida).
+  
