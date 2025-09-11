@@ -7,10 +7,10 @@ import time
 
 # --- CONFIGURACIÓN DE LA BASE DE DATOS ---
 # Modifica estos valores con los de tu conexión a SQL Server
-SERVER = '.\\SQLEXPRESS'  # o el nombre de tu servidor: 'localhost', 'server.database.windows.net', etc.
+SERVER = '.\\AxelAV\SQLEXPRESS'  # o el nombre de tu servidor: 'localhost', 'server.database.windows.net', etc.
 DATABASE = 'tiendadb'
-USERNAME = 'tu_usuario'      # Opcional si usas Autenticación de Windows
-PASSWORD = 'tu_contraseña' # Opcional si usas Autenticación de Windows
+USERNAME = 'axelav'      # Opcional si usas Autenticación de Windows
+PASSWORD = 'admin1234' # Opcional si usas Autenticación de Windows
 # Para Autenticación de Windows, la connection string cambia. Ver abajo.
 
 # --- CONFIGURACIÓN DEL SCRIPT ---

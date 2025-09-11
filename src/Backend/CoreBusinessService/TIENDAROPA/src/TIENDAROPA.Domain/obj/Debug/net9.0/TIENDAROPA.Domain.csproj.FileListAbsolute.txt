@@ -10,3 +10,4 @@ C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBu
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\obj\Debug\net9.0\refint\TIENDAROPA.Domain.dll
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\obj\Debug\net9.0\TIENDAROPA.Domain.pdb
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\obj\Debug\net9.0\ref\TIENDAROPA.Domain.dll
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\obj\Debug\net9.0\TIENDAROPA.Domain.csproj.AssemblyReference.cache

@@ -67,4 +67,19 @@
 
   Esto te dice si tu rama local está adelantada o atrasada respecto a la remota, aunque no es tan detallado para comparar entre ramas.
 
-  
+
+### Database first - Configuración
+
+dotnet add TIENDAROPA.Infrastructure package Microsoft.EntityFrameworkCore.Design
+dotnet add TIENDAROPA.Infrastructure package Microsoft.EntityFrameworkCore.SqlServer
+
+dotnet add TIENDAROPA.Domain package Microsoft.EntityFrameworkCore
+
+dotnet tool install --global dotnet-ef
+dotnet tool update --global dotnet-ef
+
+
+
+cd path/to/your/solution/TIENDAROPA.Infrastructure
+
+dotnet ef dbcontext scaffold "TU_CADENA_DE_CONEXION" Microsoft.EntityFrameworkCore.SqlServer --context-dir Data --output-dir ../TIENDAROPA.Domain/Entities --namespace TIENDAROPA.Domain.Entities --context-namespace TIENDAROPA.Infrastructure.Data
