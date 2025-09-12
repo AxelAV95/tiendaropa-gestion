@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.domain\\interfaces\\persistence\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|solutionrelative:src\\tiendaropa.domain\\interfaces\\persistence\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|solutionrelative:src\\tiendaropa.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47AC2EDE-08DF-4A90-9AD1-E0B5D8AA1193}|src\\TIENDAROPA.Api\\TIENDAROPA.Api.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47AC2EDE-08DF-4A90-9AD1-E0B5D8AA1193}|src\\TIENDAROPA.Api\\TIENDAROPA.Api.csproj|solutionrelative:src\\tiendaropa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{DAB3453C-8C1A-40F9-81C2-97504567EF0D}|src\\TIENDAROPA.Infrastructure\\TIENDAROPA.Infrastructure.csproj|solutionrelative:src\\tiendaropa.infrastructure\\data\\tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|solutionrelative:src\\tiendaropa.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.domain\\tiendaropa.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|solutionrelative:src\\tiendaropa.domain\\tiendaropa.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Domain\\Interfaces\\Persistence\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "src\\TIENDAROPA.Domain\\Interfaces\\Persistence\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Domain\\Interfaces\\Persistence\\IGenericRepository.cs",
+              "RelativeToolTip": "src\\TIENDAROPA.Domain\\Interfaces\\Persistence\\IGenericRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T18:05:45.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\TIENDAROPA.Infrastructure\\DependencyInjection.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "src\\TIENDAROPA.Infrastructure\\DependencyInjection.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T17:30:57.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T17:30:57.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TiendadbContext.cs",
               "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Infrastructure\\Data\\TiendadbContext.cs",
               "RelativeDocumentMoniker": "src\\TIENDAROPA.Infrastructure\\Data\\TiendadbContext.cs",
@@ -59,25 +75,24 @@
               "RelativeToolTip": "src\\TIENDAROPA.Infrastructure\\Data\\TiendadbContext.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T17:22:43.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T17:22:43.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Domain\\Entities\\Customer.cs",
               "RelativeDocumentMoniker": "src\\TIENDAROPA.Domain\\Entities\\Customer.cs",
               "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Domain\\Entities\\Customer.cs",
               "RelativeToolTip": "src\\TIENDAROPA.Domain\\Entities\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-12T17:22:22.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Api\\appsettings.json",
               "RelativeDocumentMoniker": "src\\TIENDAROPA.Api\\appsettings.json",
@@ -85,12 +100,11 @@
               "RelativeToolTip": "src\\TIENDAROPA.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAChAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-11T21:31:11.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T21:31:11.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\TIENDAROPA.Api\\Program.cs",
@@ -103,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TIENDAROPA.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj",
               "RelativeDocumentMoniker": "src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj",
@@ -111,8 +125,7 @@
               "RelativeToolTip": "src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-10T21:35:43.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T21:35:43.968Z"
             },
             {
               "$type": "Bookmark",
