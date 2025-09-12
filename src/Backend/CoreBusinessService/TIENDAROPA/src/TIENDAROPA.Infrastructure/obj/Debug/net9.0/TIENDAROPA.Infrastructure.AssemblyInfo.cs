@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TIENDAROPA.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43030e635373ad2bf1024a19b9b9c1e7670235dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c53b0f896a2f3c4e9beeeaf68db0405ed55bc9a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("TIENDAROPA.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TIENDAROPA.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

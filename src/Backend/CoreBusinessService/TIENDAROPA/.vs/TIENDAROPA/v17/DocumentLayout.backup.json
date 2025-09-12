@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.domain\\interfaces\\persistence\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|solutionrelative:src\\tiendaropa.domain\\interfaces\\persistence\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\interfaces\\persistence\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\interfaces\\persistence\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,13 +44,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Domain\\Interfaces\\Persistence\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "src\\TIENDAROPA.Domain\\Interfaces\\Persistence\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Domain\\Interfaces\\Persistence\\IGenericRepository.cs",
-              "RelativeToolTip": "src\\TIENDAROPA.Domain\\Interfaces\\Persistence\\IGenericRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\Interfaces\\Persistence\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\Interfaces\\Persistence\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\Interfaces\\Persistence\\IGenericRepository.cs",
+              "RelativeToolTip": "src\\TIENDAROPA.Application\\Interfaces\\Persistence\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:05:45.146Z",
+              "WhenOpened": "2025-09-12T18:31:30.282Z",
               "EditorCaption": ""
             },
             {
@@ -87,8 +87,7 @@
               "RelativeToolTip": "src\\TIENDAROPA.Domain\\Entities\\Customer.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T17:22:22.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T17:22:22.057Z"
             },
             {
               "$type": "Document",
@@ -112,8 +111,7 @@
               "RelativeToolTip": "src\\TIENDAROPA.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T21:31:08.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T21:31:08.405Z"
             },
             {
               "$type": "Document",

@@ -1,7 +1,11 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using TIENDAROPA.Application.Interfaces.Persistence;
+using TIENDAROPA.Application.Interfaces.Services;
 using TIENDAROPA.Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
+using TIENDAROPA.Infrastructure.Repositories;
+using TIENDAROPA.Infrastructure.Services;
 
 namespace TIENDAROPA.Infrastructure
 {
@@ -30,6 +34,9 @@ namespace TIENDAROPA.Infrastructure
             // Here is where you would register your repositories or other infrastructure services
             // Example:
             // services.AddScoped<IProductRepository, ProductRepository>();
+
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
 
             return services;
         }
