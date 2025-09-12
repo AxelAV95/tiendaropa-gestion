@@ -10,8 +10,7 @@
     <Folder Include="Entities\" />
     <Folder Include="Enums\" />
     <Folder Include="Exceptions\" />
-    <Folder Include="Interfaces\Authentication\" />
-    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
     <Folder Include="ValueObjects\" />
   </ItemGroup>
