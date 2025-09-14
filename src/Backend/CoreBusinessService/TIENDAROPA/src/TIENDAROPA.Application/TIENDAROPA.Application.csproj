@@ -11,13 +11,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Commons\Bases\" />
-    <Folder Include="DTOs\" />
     <Folder Include="Interfaces\Authentication\" />
-    <Folder Include="Mappings\" />
+    <Folder Include="UseCases\Products\Commands\" />
     <Folder Include="Validators\" />
-    <Folder Include="UseCases\" />
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="15.0.1" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
   </ItemGroup>
 
 </Project>
