@@ -1,3 +1,4 @@
+using TIENDAROPA.Application;
 using TIENDAROPA.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +11,7 @@ builder.Services.AddOpenApi();
 
 //Add dependency injection services
 
-builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddInfrastructure(builder.Configuration).AddApplication();
 
 var app = builder.Build();
 
