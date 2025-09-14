@@ -6,6 +6,7 @@ namespace TIENDAROPA.Application.Interfaces.Services
     public interface IUnitOfWork : IDisposable
     {
         IGenericRepository<Product> Product { get; }
+        IProductRepository Products { get; }
         Task SaveChangesAsync();
     }
 }
