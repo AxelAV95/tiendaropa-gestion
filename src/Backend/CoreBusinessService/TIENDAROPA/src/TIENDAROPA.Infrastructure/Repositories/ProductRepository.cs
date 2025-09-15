@@ -28,5 +28,22 @@ namespace TIENDAROPA.Infrastructure.Repositories
                                  .Include(p => p.Brand)
                                  .ToListAsync();
         }
+
+        public async Task<Product?> GetProductWithDetailsByIdAsync(int productId)
+        {
+            // 1. Inicia la consulta sobre la tabla de Productos.
+            var product = await _context.Products
+                // 2. Carga la entidad relacionada 'Category'. EF Core hará el JOIN por nosotros.
+                .Include(p => p.Category)
+                // 3. Carga la entidad relacionada 'Brand'.
+                .Include(p => p.Brand)
+                // 4. Busca el primer producto que cumpla la condición (p.Id == productId)
+                //    o devuelve null si no lo encuentra. Es el método ideal para esto.
+                .FirstOrDefaultAsync(p => p.Id == productId);
+
+            return product;
+        }
+
+        //GetProductWithDetailsByIdAsync
     }
 }

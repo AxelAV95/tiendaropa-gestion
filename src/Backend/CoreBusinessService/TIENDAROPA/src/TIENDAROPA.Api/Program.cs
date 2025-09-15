@@ -1,3 +1,4 @@
+using TIENDAROPA.Api.Middleware;
 using TIENDAROPA.Application;
 using TIENDAROPA.Infrastructure;
 
@@ -14,6 +15,8 @@ builder.Services.AddOpenApi();
 builder.Services.AddInfrastructure(builder.Configuration).AddApplication();
 
 var app = builder.Build();
+
+app.UseMiddleware<ExceptionHandlerMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
