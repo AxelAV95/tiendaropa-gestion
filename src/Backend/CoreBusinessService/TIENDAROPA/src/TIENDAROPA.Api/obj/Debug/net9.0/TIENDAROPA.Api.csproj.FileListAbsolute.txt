@@ -174,3 +174,5 @@ C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBu
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Api\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Api\bin\Debug\net9.0\MediatR.dll
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Api\bin\Debug\net9.0\MediatR.Contracts.dll
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Api\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Api\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -21,6 +21,17 @@ namespace TIENDAROPA.Application.Mappings
                     // Una forma más moderna y corta de escribir lo de arriba es:
                     // opt => opt.MapFrom(src => src.Brand?.Name)
                 );
+
+            CreateMap<Product, ProductDetailDto>()
+                .ForMember(
+                    dest => dest.CategoryName,
+                    opt => opt.MapFrom(src => src.Category.Name)
+                )
+                .ForMember(
+                    dest => dest.BrandName,
+                    // Usamos el operador de nulidad '?' para evitar errores si la marca es nula.
+                    opt => opt.MapFrom(src => src.Brand != null ? src.Brand.Name : null)
+                );
         }
 
     }
