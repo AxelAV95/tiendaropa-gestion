@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetAllQuery;
+using TIENDAROPA.Application.UseCases.Products.Queries.GetProductByIdQuery;
 
 namespace TIENDAROPA.Api.Controllers
 {
@@ -21,6 +22,25 @@ namespace TIENDAROPA.Api.Controllers
         {
             var response = await _sender.Send(new GetAllProductQuery());
             return Ok(response);
+        }
+
+        [HttpGet("{productId}")]
+        public async Task<IActionResult> GetProductById(int productId)
+        {
+            // 1. Crea la consulta con el ID que viene de la URL.
+            var query = new GetProductByIdQuery { ProductId = productId };
+
+            // 2. Envía la consulta a MediatR.
+            var response = await _sender.Send(query);
+
+            // 3. Devuelve la respuesta apropiada según el resultado.
+            if (response.IsSuccess)
+            {
+                return Ok(response);
+            }
+
+            // Si IsSuccess es false (por no encontrar el producto), devolvemos un 404.
+            return NotFound(response);
         }
     }
 }

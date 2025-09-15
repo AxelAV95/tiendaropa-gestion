@@ -10,5 +10,6 @@ namespace TIENDAROPA.Application.Interfaces.Persistence
     public interface IProductRepository : IGenericRepository<Product>
     {
         Task<IEnumerable<Product>> GetAllProductsWithDetailsAsync();
+        Task<Product?> GetProductWithDetailsByIdAsync(int productId);
     }
 }

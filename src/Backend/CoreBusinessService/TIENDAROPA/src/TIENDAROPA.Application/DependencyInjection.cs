@@ -1,4 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Application.Common.Behaviors;
+using FluentValidation;
+using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
 namespace TIENDAROPA.Application
@@ -12,6 +15,12 @@ namespace TIENDAROPA.Application
             {
                 cfg.AddMaps(Assembly.GetExecutingAssembly());
             });
+
+            // Registra todos los validadores de FluentValidation del ensamblado de Application
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+
+            // Registra nuestro ValidationBehavior como un pipeline behavior de MediatR
+           services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
             return services;
         }
