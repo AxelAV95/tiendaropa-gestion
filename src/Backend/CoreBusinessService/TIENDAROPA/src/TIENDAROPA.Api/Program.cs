@@ -10,6 +10,10 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+// Aprende más sobre cómo configurar Swagger/OpenAPI en https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer(); // Necesario para la exploración de endpoints
+builder.Services.AddSwaggerGen(); // ¡Este es el servicio clave!
+
 //Add dependency injection services
 
 builder.Services.AddInfrastructure(builder.Configuration).AddApplication();
@@ -22,6 +26,8 @@ app.UseMiddleware<ExceptionHandlerMiddleware>();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();

@@ -32,6 +32,11 @@ namespace TIENDAROPA.Application.Mappings
                     // Usamos el operador de nulidad '?' para evitar errores si la marca es nula.
                     opt => opt.MapFrom(src => src.Brand != null ? src.Brand.Name : null)
                 );
+
+            CreateMap<ProductVariant, ProductVariantDto>()
+                .ForMember(dest => dest.SizeName, opt => opt.MapFrom(src => src.Size != null ? src.Size.Name : null))
+                .ForMember(dest => dest.ColorName, opt => opt.MapFrom(src => src.Color != null ? src.Color.Name : null))
+                .ForMember(dest => dest.FinalPrice, opt => opt.MapFrom(src => src.Product.BasePrice + src.PriceModifier));
         }
 
     }

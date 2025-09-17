@@ -44,6 +44,15 @@ namespace TIENDAROPA.Infrastructure.Repositories
             return product;
         }
 
-        //GetProductWithDetailsByIdAsync
+        public async Task<IEnumerable<ProductVariant>> GetVariantsByProductIdAsync(int productId)
+        {
+            return await _context.ProductVariants
+                .Include(v => v.Product)  // Incluimos el producto para acceder a BasePrice
+                .Include(v => v.Color)    // Incluimos el color para acceder a su nombre
+                .Include(v => v.Size)     // Incluimos la talla para acceder a su nombre
+                .Where(v => v.ProductId == productId)
+                .AsNoTracking() // Usamos AsNoTracking para consultas de solo lectura por rendimiento
+                .ToListAsync();
+        }
     }
 }
