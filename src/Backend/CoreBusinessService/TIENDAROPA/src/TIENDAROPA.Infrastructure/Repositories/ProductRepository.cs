@@ -54,5 +54,24 @@ namespace TIENDAROPA.Infrastructure.Repositories
                 .AsNoTracking() // Usamos AsNoTracking para consultas de solo lectura por rendimiento
                 .ToListAsync();
         }
+
+        public async Task<(IEnumerable<Product> Products, int TotalCount)> GetByCategoryPaginatedAsync(int categoryId, int pageNumber, int pageSize)
+        {
+            // La entidad Category tiene una colección de Products
+            var baseQuery = _context.Products
+                .Where(p => p.CategoryId == categoryId) // La entidad Product tiene una CategoryId
+                .AsNoTracking();
+
+            // 1. Obtener el conteo total ANTES de paginar
+            var totalCount = await baseQuery.CountAsync();
+
+            // 2. Aplicar la paginación para obtener solo los registros de la página actual
+            var products = await baseQuery
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+
+            return (products, totalCount);
+        }
     }
 }
