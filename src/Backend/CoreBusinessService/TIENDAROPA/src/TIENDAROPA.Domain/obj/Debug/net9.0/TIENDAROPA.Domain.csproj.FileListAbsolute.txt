@@ -1,6 +1,7 @@
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\bin\Debug\net9.0\TIENDAROPA.Domain.deps.json
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\bin\Debug\net9.0\TIENDAROPA.Domain.dll
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\bin\Debug\net9.0\TIENDAROPA.Domain.pdb
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\obj\Debug\net9.0\TIENDAROPA.Domain.csproj.AssemblyReference.cache
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\obj\Debug\net9.0\TIENDAROPA.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\obj\Debug\net9.0\TIENDAROPA.Domain.AssemblyInfoInputs.cache
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\obj\Debug\net9.0\TIENDAROPA.Domain.AssemblyInfo.cs
@@ -10,4 +11,3 @@ C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBu
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\obj\Debug\net9.0\refint\TIENDAROPA.Domain.dll
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\obj\Debug\net9.0\TIENDAROPA.Domain.pdb
 C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\obj\Debug\net9.0\ref\TIENDAROPA.Domain.dll
-C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\TIENDAROPA\src\TIENDAROPA.Domain\obj\Debug\net9.0\TIENDAROPA.Domain.csproj.AssemblyReference.cache
