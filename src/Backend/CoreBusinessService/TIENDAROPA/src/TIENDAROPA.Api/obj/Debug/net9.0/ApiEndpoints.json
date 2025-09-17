@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "TIENDAROPA.Api.Controllers.ProductController",
+    "Method": "GetVariantsByProduct",
+    "RelativePath": "api/Product/{productId}/variants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TIENDAROPA.Api.Controllers.ProductController",
     "Method": "ProductList",
     "RelativePath": "api/Product/List",
     "HttpMethod": "GET",
