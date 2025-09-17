@@ -37,7 +37,12 @@ namespace TIENDAROPA.Application.Mappings
                 .ForMember(dest => dest.SizeName, opt => opt.MapFrom(src => src.Size != null ? src.Size.Name : null))
                 .ForMember(dest => dest.ColorName, opt => opt.MapFrom(src => src.Color != null ? src.Color.Name : null))
                 .ForMember(dest => dest.FinalPrice, opt => opt.MapFrom(src => src.Product.BasePrice + src.PriceModifier));
+            
+            CreateMap<Product, ProductSummaryDto>();
+
         }
+
+
 
     }
 }
