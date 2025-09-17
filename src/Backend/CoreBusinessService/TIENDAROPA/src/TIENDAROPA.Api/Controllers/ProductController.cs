@@ -1,8 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TIENDAROPA.Application.DTOs.Common;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetAllQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductByIdQuery;
+using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByCategoryQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductVariantsQuery;
 
 namespace TIENDAROPA.Api.Controllers
@@ -57,6 +59,21 @@ namespace TIENDAROPA.Api.Controllers
                 // Devolver NotFound si el producto en sí no existe sería otra opción.
                 return Ok(response);
             }
+
+            return Ok(response);
+        }
+
+        [HttpGet("category/{categoryId}")]
+        public async Task<IActionResult> GetProductsByCategory(int categoryId, [FromQuery] PaginationDto pagination)
+        {
+            var query = new GetProductsByCategoryQuery
+            {
+                CategoryId = categoryId,
+                PageNumber = pagination.PageNumber,
+                PageSize = pagination.PageSize
+            };
+
+            var response = await _sender.Send(query);
 
             return Ok(response);
         }
