@@ -94,6 +94,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TIENDAROPA.Api.Controllers.ProductController",
+    "Method": "GetLowStockProducts",
+    "RelativePath": "api/Product/low-stock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "minStock",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TIENDAROPA.Api.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

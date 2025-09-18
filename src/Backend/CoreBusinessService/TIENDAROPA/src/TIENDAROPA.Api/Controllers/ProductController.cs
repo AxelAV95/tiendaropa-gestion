@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TIENDAROPA.Application.DTOs.Common;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetAllQuery;
+using TIENDAROPA.Application.UseCases.Products.Queries.GetLowStockProductsQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductByIdQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByBrandQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByCategoryQuery;
@@ -91,6 +92,13 @@ namespace TIENDAROPA.Api.Controllers
 
             var response = await _sender.Send(query);
 
+            return Ok(response);
+        }
+        [HttpGet("low-stock")]
+        public async Task<IActionResult> GetLowStockProducts([FromQuery] int? minStock)
+        {
+            var query = new GetLowStockProductsQuery { MinStock = minStock };
+            var response = await _sender.Send(query);
             return Ok(response);
         }
     }
