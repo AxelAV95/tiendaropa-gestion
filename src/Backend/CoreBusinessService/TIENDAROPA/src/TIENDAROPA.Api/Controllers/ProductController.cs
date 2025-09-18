@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using TIENDAROPA.Application.DTOs.Common;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetAllQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductByIdQuery;
+using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByBrandQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByCategoryQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductVariantsQuery;
 
@@ -69,6 +70,21 @@ namespace TIENDAROPA.Api.Controllers
             var query = new GetProductsByCategoryQuery
             {
                 CategoryId = categoryId,
+                PageNumber = pagination.PageNumber,
+                PageSize = pagination.PageSize
+            };
+
+            var response = await _sender.Send(query);
+
+            return Ok(response);
+        }
+
+        [HttpGet("brand/{brandId}")]
+        public async Task<IActionResult> GetProductsByBrand(int brandId, [FromQuery] PaginationDto pagination)
+        {
+            var query = new GetProductsByBrandQuery
+            {
+                BrandId = brandId,
                 PageNumber = pagination.PageNumber,
                 PageSize = pagination.PageSize
             };

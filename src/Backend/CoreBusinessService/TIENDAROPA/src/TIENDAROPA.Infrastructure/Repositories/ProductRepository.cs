@@ -73,5 +73,22 @@ namespace TIENDAROPA.Infrastructure.Repositories
 
             return (products, totalCount);
         }
+
+        public async Task<(IEnumerable<Product> Products, int TotalCount)> GetByBrandPaginatedAsync(int brandId, int pageNumber, int pageSize)
+        {
+            // La entidad Product tiene un BrandId que puede ser nulo
+            var baseQuery = _context.Products
+                .Where(p => p.BrandId == brandId)
+                .AsNoTracking();
+
+            var totalCount = await baseQuery.CountAsync();
+
+            var products = await baseQuery
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+
+            return (products, totalCount);
+        }
     }
 }
