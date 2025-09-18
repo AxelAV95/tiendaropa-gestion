@@ -73,5 +73,45 @@ namespace TIENDAROPA.Infrastructure.Repositories
 
             return (products, totalCount);
         }
+
+        public async Task<(IEnumerable<Product> Products, int TotalCount)> GetByBrandPaginatedAsync(int brandId, int pageNumber, int pageSize)
+        {
+            // La entidad Product tiene un BrandId que puede ser nulo
+            var baseQuery = _context.Products
+                .Where(p => p.BrandId == brandId)
+                .AsNoTracking();
+
+            var totalCount = await baseQuery.CountAsync();
+
+            var products = await baseQuery
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+
+            return (products, totalCount);
+        }
+
+        public async Task<IEnumerable<ProductVariant>> GetLowStockProductsAsync(int? minStockThreshold)
+        {
+            // Incluimos Product, Color y Size para que AutoMapper tenga acceso a sus propiedades
+            var query = _context.ProductVariants
+                .Include(pv => pv.Product)
+                .Include(pv => pv.Color)
+                .Include(pv => pv.Size)
+                .AsNoTracking();
+
+            if (minStockThreshold.HasValue)
+            {
+                // Si se provee un umbral, se usa para filtrar
+                query = query.Where(pv => pv.StockQuantity <= minStockThreshold.Value);
+            }
+            else
+            {
+                // Si no, se compara el stock de la variante con el umbral del producto padre
+                query = query.Where(pv => pv.StockQuantity <= pv.Product.MinStock);
+            }
+
+            return await query.ToListAsync();
+        }
     }
 }
