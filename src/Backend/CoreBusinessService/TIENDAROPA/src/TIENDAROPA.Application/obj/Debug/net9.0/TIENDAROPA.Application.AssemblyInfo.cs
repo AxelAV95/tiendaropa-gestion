@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TIENDAROPA.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4caa2e33b41369bcbda0bdfce548522f931dbd85")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df92fcd0a9c02caf7ffbe576b960035553130f04")]
 [assembly: System.Reflection.AssemblyProductAttribute("TIENDAROPA.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TIENDAROPA.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

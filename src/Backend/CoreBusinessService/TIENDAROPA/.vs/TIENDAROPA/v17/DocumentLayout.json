@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\interfaces\\persistence\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\interfaces\\persistence\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\usecases\\products\\queries\\getlowstockproductsquery\\getlowstockproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\usecases\\products\\queries\\getlowstockproductsquery\\getlowstockproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47AC2EDE-08DF-4A90-9AD1-E0B5D8AA1193}|src\\TIENDAROPA.Api\\TIENDAROPA.Api.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47AC2EDE-08DF-4A90-9AD1-E0B5D8AA1193}|src\\TIENDAROPA.Api\\TIENDAROPA.Api.csproj|solutionrelative:src\\tiendaropa.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,52 +19,20 @@
       "RelativeMoniker": "D:0:0:{DAB3453C-8C1A-40F9-81C2-97504567EF0D}|src\\TIENDAROPA.Infrastructure\\TIENDAROPA.Infrastructure.csproj|solutionrelative:src\\tiendaropa.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\interfaces\\persistence\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\interfaces\\persistence\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\usecases\\products\\queries\\getproductsbybrandquery\\getproductsbybrandqueryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\usecases\\products\\queries\\getproductsbybrandquery\\getproductsbybrandqueryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\usecases\\products\\queries\\getproductsbybrandquery\\getproductsbybrandqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\usecases\\products\\queries\\getproductsbybrandquery\\getproductsbybrandqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\usecases\\products\\queries\\getproductsbybrandquery\\getproductsbybrandquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\usecases\\products\\queries\\getproductsbybrandquery\\getproductsbybrandquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5CBD410-7E03-4D4F-81F9-A30B31C050FE}|src\\TIENDAROPA.Domain\\TIENDAROPA.Domain.csproj|solutionrelative:src\\tiendaropa.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\usecases\\products\\queries\\getproductsbycategoryquery\\getproductsbycategoryqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\usecases\\products\\queries\\getproductsbycategoryquery\\getproductsbycategoryqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\usecases\\products\\queries\\getproductsbycategoryquery\\getproductsbycategoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\usecases\\products\\queries\\getproductsbycategoryquery\\getproductsbycategoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\dtos\\product\\productsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\dtos\\product\\productsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\dtos\\common\\paginatedresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\dtos\\common\\paginatedresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\dtos\\common\\paginationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\dtos\\common\\paginationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\mappings\\productmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\mappings\\productmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\usecases\\products\\queries\\getproductsbycategoryquery\\getproductsbycategoryqueryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\usecases\\products\\queries\\getproductsbycategoryquery\\getproductsbycategoryqueryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\usecases\\products\\queries\\getlowstockproductsquery\\getlowstockproductsqueryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\usecases\\products\\queries\\getlowstockproductsquery\\getlowstockproductsqueryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\usecases\\products\\queries\\getlowstockproductsquery\\getlowstockproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\usecases\\products\\queries\\getlowstockproductsquery\\getlowstockproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|c:\\users\\andra\\desktop\\proyectos\\fullstack\\tiendaropa-gestion\\src\\backend\\corebusinessservice\\tiendaropa\\src\\tiendaropa.application\\dtos\\product\\lowstockproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F19BF81C-0772-485E-B47F-D0AD260E4552}|src\\TIENDAROPA.Application\\TIENDAROPA.Application.csproj|solutionrelative:src\\tiendaropa.application\\dtos\\product\\lowstockproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,182 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetProductsByBrandQueryValidator.cs",
-              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByBrandQuery\\GetProductsByBrandQueryValidator.cs",
-              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByBrandQuery\\GetProductsByBrandQueryValidator.cs",
-              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByBrandQuery\\GetProductsByBrandQueryValidator.cs",
-              "RelativeToolTip": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByBrandQuery\\GetProductsByBrandQueryValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T19:08:05.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetProductsByBrandQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByBrandQuery\\GetProductsByBrandQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByBrandQuery\\GetProductsByBrandQueryHandler.cs",
-              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByBrandQuery\\GetProductsByBrandQueryHandler.cs",
-              "RelativeToolTip": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByBrandQuery\\GetProductsByBrandQueryHandler.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T19:07:26.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\Interfaces\\Persistence\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\Interfaces\\Persistence\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\Interfaces\\Persistence\\IProductRepository.cs",
-              "RelativeToolTip": "src\\TIENDAROPA.Application\\Interfaces\\Persistence\\IProductRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAvwA8AAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:57:31.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Api\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "src\\TIENDAROPA.Api\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Api\\Controllers\\ProductController.cs",
               "RelativeToolTip": "src\\TIENDAROPA.Api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAowGEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAIwGUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:59:07.856Z",
+              "WhenOpened": "2025-09-18T19:31:18.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetProductsByBrandQuery.cs",
-              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByBrandQuery\\GetProductsByBrandQuery.cs",
-              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByBrandQuery\\GetProductsByBrandQuery.cs",
-              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByBrandQuery\\GetProductsByBrandQuery.cs",
-              "RelativeToolTip": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByBrandQuery\\GetProductsByBrandQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T19:06:51.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "src\\TIENDAROPA.Infrastructure\\Repositories\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "src\\TIENDAROPA.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAIwFYAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAIwGAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:57:55.553Z",
+              "WhenOpened": "2025-09-18T19:30:40.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "src\\TIENDAROPA.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "src\\TIENDAROPA.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA2wCUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\Interfaces\\Persistence\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\Interfaces\\Persistence\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\Interfaces\\Persistence\\IProductRepository.cs",
+              "RelativeToolTip": "src\\TIENDAROPA.Application\\Interfaces\\Persistence\\IProductRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T19:00:10.865Z",
+              "WhenOpened": "2025-09-18T19:30:22.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetProductsByCategoryQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByCategoryQuery\\GetProductsByCategoryQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByCategoryQuery\\GetProductsByCategoryQueryHandler.cs",
-              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByCategoryQuery\\GetProductsByCategoryQueryHandler.cs",
-              "RelativeToolTip": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByCategoryQuery\\GetProductsByCategoryQueryHandler.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowBQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:55:37.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetProductsByCategoryQuery.cs",
-              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByCategoryQuery\\GetProductsByCategoryQuery.cs",
-              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByCategoryQuery\\GetProductsByCategoryQuery.cs",
-              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByCategoryQuery\\GetProductsByCategoryQuery.cs",
-              "RelativeToolTip": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByCategoryQuery\\GetProductsByCategoryQuery.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:53:48.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductSummaryDto.cs",
-              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\DTOs\\Product\\ProductSummaryDto.cs",
-              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\DTOs\\Product\\ProductSummaryDto.cs",
-              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\DTOs\\Product\\ProductSummaryDto.cs",
-              "RelativeToolTip": "src\\TIENDAROPA.Application\\DTOs\\Product\\ProductSummaryDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:52:56.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PaginatedResultDto.cs",
-              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\DTOs\\Common\\PaginatedResultDto.cs",
-              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\DTOs\\Common\\PaginatedResultDto.cs",
-              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\DTOs\\Common\\PaginatedResultDto.cs",
-              "RelativeToolTip": "src\\TIENDAROPA.Application\\DTOs\\Common\\PaginatedResultDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:52:11.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PaginationDto.cs",
-              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\DTOs\\Common\\PaginationDto.cs",
-              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\DTOs\\Common\\PaginationDto.cs",
-              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\DTOs\\Common\\PaginationDto.cs",
-              "RelativeToolTip": "src\\TIENDAROPA.Application\\DTOs\\Common\\PaginationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:51:38.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GetProductsByCategoryQueryValidator.cs",
-              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByCategoryQuery\\GetProductsByCategoryQueryValidator.cs",
-              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByCategoryQuery\\GetProductsByCategoryQueryValidator.cs",
-              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByCategoryQuery\\GetProductsByCategoryQueryValidator.cs",
-              "RelativeToolTip": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetProductsByCategoryQuery\\GetProductsByCategoryQueryValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:56:27.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "ProductMapping.cs",
               "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\Mappings\\ProductMapping.cs",
               "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\Mappings\\ProductMapping.cs",
               "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\Mappings\\ProductMapping.cs",
               "RelativeToolTip": "src\\TIENDAROPA.Application\\Mappings\\ProductMapping.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwC4AAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:56:57.959Z"
+              "WhenOpened": "2025-09-18T19:30:01.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetLowStockProductsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetLowStockProductsQuery\\GetLowStockProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetLowStockProductsQuery\\GetLowStockProductsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetLowStockProductsQuery\\GetLowStockProductsQueryHandler.cs",
+              "RelativeToolTip": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetLowStockProductsQuery\\GetLowStockProductsQueryHandler.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T19:29:20.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetLowStockProductsQueryValidator.cs",
+              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetLowStockProductsQuery\\GetLowStockProductsQueryValidator.cs",
+              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetLowStockProductsQuery\\GetLowStockProductsQueryValidator.cs",
+              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetLowStockProductsQuery\\GetLowStockProductsQueryValidator.cs",
+              "RelativeToolTip": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetLowStockProductsQuery\\GetLowStockProductsQueryValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T19:29:42.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetLowStockProductsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetLowStockProductsQuery\\GetLowStockProductsQuery.cs",
+              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetLowStockProductsQuery\\GetLowStockProductsQuery.cs",
+              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetLowStockProductsQuery\\GetLowStockProductsQuery.cs",
+              "RelativeToolTip": "src\\TIENDAROPA.Application\\UseCases\\Products\\Queries\\GetLowStockProductsQuery\\GetLowStockProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T19:28:54.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LowStockProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\DTOs\\Product\\LowStockProductDto.cs",
+              "RelativeDocumentMoniker": "src\\TIENDAROPA.Application\\DTOs\\Product\\LowStockProductDto.cs",
+              "ToolTip": "C:\\Users\\andra\\Desktop\\Proyectos\\Fullstack\\tiendaropa-gestion\\src\\Backend\\CoreBusinessService\\TIENDAROPA\\src\\TIENDAROPA.Application\\DTOs\\Product\\LowStockProductDto.cs",
+              "RelativeToolTip": "src\\TIENDAROPA.Application\\DTOs\\Product\\LowStockProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T19:28:06.426Z",
+              "EditorCaption": ""
             }
           ]
         }

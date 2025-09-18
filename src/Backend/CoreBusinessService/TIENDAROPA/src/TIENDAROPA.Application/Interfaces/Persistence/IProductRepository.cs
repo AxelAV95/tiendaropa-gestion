@@ -14,6 +14,8 @@ namespace TIENDAROPA.Application.Interfaces.Persistence
         Task<IEnumerable<ProductVariant>> GetVariantsByProductIdAsync(int productId);
         Task<(IEnumerable<Product> Products, int TotalCount)> GetByCategoryPaginatedAsync(int categoryId, int pageNumber, int pageSize);
         Task<(IEnumerable<Product> Products, int TotalCount)> GetByBrandPaginatedAsync(int brandId, int pageNumber, int pageSize);
-
+        Task<IEnumerable<ProductVariant>> GetLowStockProductsAsync(int? minStockThreshold);
     }
+
 }
+
