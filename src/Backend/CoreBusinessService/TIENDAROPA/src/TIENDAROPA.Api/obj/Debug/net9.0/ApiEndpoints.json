@@ -33,6 +33,32 @@
   },
   {
     "ContainingType": "TIENDAROPA.Api.Controllers.ProductController",
+    "Method": "GetProductsByBrand",
+    "RelativePath": "api/Product/brand/{brandId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brandId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TIENDAROPA.Api.Controllers.ProductController",
     "Method": "GetProductsByCategory",
     "RelativePath": "api/Product/category/{categoryId}",
     "HttpMethod": "GET",
