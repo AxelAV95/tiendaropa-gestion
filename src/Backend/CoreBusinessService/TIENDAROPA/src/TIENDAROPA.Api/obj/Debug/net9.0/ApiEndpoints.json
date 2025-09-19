@@ -110,6 +110,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TIENDAROPA.Api.Controllers.ProductController",
+    "Method": "SearchProducts",
+    "RelativePath": "api/Product/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "TIENDAROPA.Application.UseCases.Products.Queries.SearchProductsQuery.SearchProductsQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TIENDAROPA.Api.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
