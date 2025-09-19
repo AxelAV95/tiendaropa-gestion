@@ -1,0 +1,10 @@
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\Calculadora\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\andra\Desktop\Proyectos\Fullstack\tiendaropa-gestion\src\Backend\CoreBusinessService\Calculadora\Calculadora\obj\Debug\Calculadora.pdb

@@ -8,6 +8,7 @@ using TIENDAROPA.Application.UseCases.Products.Queries.GetProductByIdQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByBrandQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByCategoryQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductVariantsQuery;
+using TIENDAROPA.Application.UseCases.Products.Queries.SearchProductsQuery;
 
 namespace TIENDAROPA.Api.Controllers
 {
@@ -98,6 +99,13 @@ namespace TIENDAROPA.Api.Controllers
         public async Task<IActionResult> GetLowStockProducts([FromQuery] int? minStock)
         {
             var query = new GetLowStockProductsQuery { MinStock = minStock };
+            var response = await _sender.Send(query);
+            return Ok(response);
+        }
+
+        [HttpPost("search")]
+        public async Task<IActionResult> SearchProducts([FromBody] SearchProductsQuery query)
+        {
             var response = await _sender.Send(query);
             return Ok(response);
         }
