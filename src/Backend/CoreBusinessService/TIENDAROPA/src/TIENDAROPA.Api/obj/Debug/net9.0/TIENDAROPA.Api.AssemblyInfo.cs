@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TIENDAROPA.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9ccee5a33f0554089c152ad3a5383b4f89ed9ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+472b4b8a4ff534e8de90605e46ac7cac24abd25f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TIENDAROPA.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TIENDAROPA.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

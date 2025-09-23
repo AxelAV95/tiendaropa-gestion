@@ -126,6 +126,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TIENDAROPA.Api.Controllers.ProductController",
+    "Method": "GetVariantBySku",
+    "RelativePath": "api/Product/sku/{sku}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sku",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TIENDAROPA.Api.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
