@@ -158,5 +158,25 @@ namespace TIENDAROPA.Infrastructure.Repositories
 
             return (products, totalCount);
         }
+
+        public async Task<IEnumerable<SaleItem>> GetSalesHistoryAsync(int productId, DateTime startDate, DateTime endDate)
+        {
+            // La consulta empieza desde SaleItems
+            return await _context.SaleItems
+                // Incluimos las entidades relacionadas que necesitaremos para el filtro y el DTO
+                .Include(si => si.Sale)
+                .Include(si => si.ProductVariant)
+                .Where(si =>
+                    // Filtramos por el ProductId de la variante
+                    si.ProductVariant.ProductId == productId &&
+                    // Filtramos por el rango de fechas de la venta
+                    si.Sale.SaleDate >= startDate &&
+                    si.Sale.SaleDate <= endDate
+                )
+                .AsNoTracking()
+                .OrderByDescending(si => si.Sale.SaleDate) // Ordenamos por fecha descendente
+                .ToListAsync();
+        }
     }
 }
+
