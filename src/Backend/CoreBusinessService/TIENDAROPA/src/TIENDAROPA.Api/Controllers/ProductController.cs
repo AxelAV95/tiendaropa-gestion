@@ -9,6 +9,7 @@ using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByBrandQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByCategoryQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductVariantsQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.SearchProductsQuery;
+using TIENDAROPA.Application.UseCases.ProductVariants.Queries.GetProductVariantBySkuQuery;
 
 namespace TIENDAROPA.Api.Controllers
 {
@@ -107,6 +108,20 @@ namespace TIENDAROPA.Api.Controllers
         public async Task<IActionResult> SearchProducts([FromBody] SearchProductsQuery query)
         {
             var response = await _sender.Send(query);
+            return Ok(response);
+        }
+
+        [HttpGet("sku/{sku}")]
+        public async Task<IActionResult> GetVariantBySku(string sku)
+        {
+            var query = new GetProductVariantBySkuQuery { Sku = sku };
+            var response = await _sender.Send(query);
+
+            if (!response.IsSuccess)
+            {
+                return NotFound(response);
+            }
+
             return Ok(response);
         }
     }

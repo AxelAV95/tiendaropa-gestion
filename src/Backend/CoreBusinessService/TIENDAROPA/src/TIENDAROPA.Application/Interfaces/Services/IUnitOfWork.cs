@@ -7,6 +7,8 @@ namespace TIENDAROPA.Application.Interfaces.Services
     {
         IGenericRepository<Product> Product { get; }
         IProductRepository Products { get; }
+        IProductVariantRepository ProductVariants { get; }
         Task SaveChangesAsync();
+
     }
 }
