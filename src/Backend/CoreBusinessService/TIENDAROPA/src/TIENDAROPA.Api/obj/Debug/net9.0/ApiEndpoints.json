@@ -17,6 +17,27 @@
   },
   {
     "ContainingType": "TIENDAROPA.Api.Controllers.ProductController",
+    "Method": "GetSalesHistory",
+    "RelativePath": "api/Product/{productId}/sales-history",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dateRange",
+        "Type": "TIENDAROPA.Application.DTOs.Common.DateRangeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TIENDAROPA.Api.Controllers.ProductController",
     "Method": "GetVariantsByProduct",
     "RelativePath": "api/Product/{productId}/variants",
     "HttpMethod": "GET",
@@ -110,24 +131,35 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TIENDAROPA.Api.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "TIENDAROPA.Api.Controllers.ProductController",
+    "Method": "SearchProducts",
+    "RelativePath": "api/Product/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "TIENDAROPA.Application.UseCases.Products.Queries.SearchProductsQuery.SearchProductsQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TIENDAROPA.Api.Controllers.ProductController",
+    "Method": "GetVariantBySku",
+    "RelativePath": "api/Product/sku/{sku}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TIENDAROPA.Api.WeatherForecast, TIENDAROPA.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "sku",
+        "Type": "System.String",
+        "IsRequired": true
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]

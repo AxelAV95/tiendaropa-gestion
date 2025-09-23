@@ -5,9 +5,12 @@ using TIENDAROPA.Application.DTOs.Common;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetAllQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetLowStockProductsQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductByIdQuery;
+using TIENDAROPA.Application.UseCases.Products.Queries.GetProductSalesHistoryQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByBrandQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByCategoryQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductVariantsQuery;
+using TIENDAROPA.Application.UseCases.Products.Queries.SearchProductsQuery;
+using TIENDAROPA.Application.UseCases.ProductVariants.Queries.GetProductVariantBySkuQuery;
 
 namespace TIENDAROPA.Api.Controllers
 {
@@ -99,6 +102,45 @@ namespace TIENDAROPA.Api.Controllers
         {
             var query = new GetLowStockProductsQuery { MinStock = minStock };
             var response = await _sender.Send(query);
+            return Ok(response);
+        }
+
+        [HttpPost("search")]
+        public async Task<IActionResult> SearchProducts([FromBody] SearchProductsQuery query)
+        {
+            var response = await _sender.Send(query);
+            return Ok(response);
+        }
+
+        [HttpGet("sku/{sku}")]
+        public async Task<IActionResult> GetVariantBySku(string sku)
+        {
+            var query = new GetProductVariantBySkuQuery { Sku = sku };
+            var response = await _sender.Send(query);
+
+            if (!response.IsSuccess)
+            {
+                return NotFound(response);
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPost("{productId}/sales-history")]
+        public async Task<IActionResult> GetSalesHistory(int productId, [FromBody] DateRangeDto dateRange)
+        {
+            var query = new GetProductSalesHistoryQuery
+            {
+                ProductId = productId,
+                DateRange = dateRange
+            };
+            var response = await _sender.Send(query);
+
+            if (!response.IsSuccess && response.Message.Contains("encontrado"))
+            {
+                return NotFound(response);
+            }
+
             return Ok(response);
         }
     }

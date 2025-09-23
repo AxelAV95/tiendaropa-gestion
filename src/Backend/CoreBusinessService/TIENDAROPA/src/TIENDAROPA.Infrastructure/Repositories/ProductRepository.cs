@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TIENDAROPA.Application.DTOs.Common;
+using TIENDAROPA.Application.DTOs.Product;
 using TIENDAROPA.Application.Interfaces.Persistence;
 using TIENDAROPA.Domain.Entities;
 using TIENDAROPA.Infrastructure.Data;
@@ -113,5 +115,68 @@ namespace TIENDAROPA.Infrastructure.Repositories
 
             return await query.ToListAsync();
         }
+
+        public async Task<(IEnumerable<Product> Products, int TotalCount)> SearchProductsPaginatedAsync(ProductSearchDto searchCriteria, PaginationDto pagination)
+        {
+            // Empezamos con una consulta base IQueryable
+            IQueryable<Product> query = _context.Products.AsNoTracking();
+
+            // Aplicamos filtros dinámicamente
+            if (!string.IsNullOrWhiteSpace(searchCriteria.Name))
+            {
+                query = query.Where(p => p.Name.Contains(searchCriteria.Name));
+            }
+            if (!string.IsNullOrWhiteSpace(searchCriteria.Code))
+            {
+                query = query.Where(p => p.Code.Contains(searchCriteria.Code));
+            }
+            if (searchCriteria.CategoryId.HasValue)
+            {
+                query = query.Where(p => p.CategoryId == searchCriteria.CategoryId.Value);
+            }
+            if (searchCriteria.BrandId.HasValue)
+            {
+                query = query.Where(p => p.BrandId == searchCriteria.BrandId.Value);
+            }
+            if (searchCriteria.MinPrice.HasValue)
+            {
+                query = query.Where(p => p.BasePrice >= searchCriteria.MinPrice.Value);
+            }
+            if (searchCriteria.MaxPrice.HasValue)
+            {
+                query = query.Where(p => p.BasePrice <= searchCriteria.MaxPrice.Value);
+            }
+
+            // Obtenemos el conteo total DESPUÉS de aplicar los filtros
+            var totalCount = await query.CountAsync();
+
+            // Aplicamos la paginación
+            var products = await query
+                .Skip((pagination.PageNumber - 1) * pagination.PageSize)
+                .Take(pagination.PageSize)
+                .ToListAsync();
+
+            return (products, totalCount);
+        }
+
+        public async Task<IEnumerable<SaleItem>> GetSalesHistoryAsync(int productId, DateTime startDate, DateTime endDate)
+        {
+            // La consulta empieza desde SaleItems
+            return await _context.SaleItems
+                // Incluimos las entidades relacionadas que necesitaremos para el filtro y el DTO
+                .Include(si => si.Sale)
+                .Include(si => si.ProductVariant)
+                .Where(si =>
+                    // Filtramos por el ProductId de la variante
+                    si.ProductVariant.ProductId == productId &&
+                    // Filtramos por el rango de fechas de la venta
+                    si.Sale.SaleDate >= startDate &&
+                    si.Sale.SaleDate <= endDate
+                )
+                .AsNoTracking()
+                .OrderByDescending(si => si.Sale.SaleDate) // Ordenamos por fecha descendente
+                .ToListAsync();
+        }
     }
 }
+

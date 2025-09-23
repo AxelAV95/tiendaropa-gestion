@@ -16,11 +16,15 @@ namespace TIENDAROPA.Infrastructure.Services
         private readonly TiendadbContext _context;
         public readonly IGenericRepository<Product> _product = null;
         private IProductRepository _products;
-        public IGenericRepository<Product> Product => _product ?? new GenericRepository<Product>(_context);
+        private IProductVariantRepository _productVariants = null;
+        
         public UnitOfWork(TiendadbContext context)
         {
             _context = context;
         }
+
+        public IGenericRepository<Product> Product => _product ?? new GenericRepository<Product>(_context);
+
         // Propiedad pública que implementa la interfaz
         public IProductRepository Products
         {
@@ -28,6 +32,14 @@ namespace TIENDAROPA.Infrastructure.Services
             {
                 // Instancia el ProductRepository si aún no ha sido creado
                 return _products ??= new ProductRepository(_context);
+            }
+        }
+
+        public IProductVariantRepository ProductVariants
+        {
+            get
+            {
+                return _productVariants ??= new ProductVariantRepository(_context);
             }
         }
         
