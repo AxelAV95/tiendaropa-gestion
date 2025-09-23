@@ -18,6 +18,7 @@ namespace TIENDAROPA.Application.Interfaces.Persistence
         Task<(IEnumerable<Product> Products, int TotalCount)> GetByBrandPaginatedAsync(int brandId, int pageNumber, int pageSize);
         Task<IEnumerable<ProductVariant>> GetLowStockProductsAsync(int? minStockThreshold);
         Task<(IEnumerable<Product> Products, int TotalCount)> SearchProductsPaginatedAsync(ProductSearchDto searchCriteria, PaginationDto pagination);
+        Task<IEnumerable<SaleItem>> GetSalesHistoryAsync(int productId, DateTime startDate, DateTime endDate);
     }
 
 }

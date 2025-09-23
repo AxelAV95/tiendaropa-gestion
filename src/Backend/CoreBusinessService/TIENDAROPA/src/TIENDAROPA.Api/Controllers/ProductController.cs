@@ -5,6 +5,7 @@ using TIENDAROPA.Application.DTOs.Common;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetAllQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetLowStockProductsQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductByIdQuery;
+using TIENDAROPA.Application.UseCases.Products.Queries.GetProductSalesHistoryQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByBrandQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductsByCategoryQuery;
 using TIENDAROPA.Application.UseCases.Products.Queries.GetProductVariantsQuery;
@@ -118,6 +119,24 @@ namespace TIENDAROPA.Api.Controllers
             var response = await _sender.Send(query);
 
             if (!response.IsSuccess)
+            {
+                return NotFound(response);
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPost("{productId}/sales-history")]
+        public async Task<IActionResult> GetSalesHistory(int productId, [FromBody] DateRangeDto dateRange)
+        {
+            var query = new GetProductSalesHistoryQuery
+            {
+                ProductId = productId,
+                DateRange = dateRange
+            };
+            var response = await _sender.Send(query);
+
+            if (!response.IsSuccess && response.Message.Contains("encontrado"))
             {
                 return NotFound(response);
             }
